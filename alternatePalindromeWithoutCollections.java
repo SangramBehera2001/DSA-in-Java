@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SecondHighestAlternatePalindromeWithoutCollections {
+public class alternatePalindromeWithoutCollections {
 
     // Function to check if a number is a palindrome
     public static boolean isPalindrome(int num) {
