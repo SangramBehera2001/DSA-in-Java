@@ -17,12 +17,10 @@ public class QuickSort {
         arr[j] = temp;
       }
     }
-
-    
-    int temp = arr[i + 1];
-    arr[i + 1] = arr[high];
-    arr[high] = temp;
-    return i + 1;
+      int temp = arr[i + 1];
+      arr[i + 1] = arr[high];
+      arr[high] = temp;
+      return i + 1;
   }
   public static void main(String[] args) {
     int [] arr = {10, 7, 8, 9, 1, 5};
@@ -30,6 +28,5 @@ public class QuickSort {
     for(int i = 0; i < arr.length; i++){
       System.out.print(arr[i] + " ");
     }
-  }
-  
+  } 
 }
